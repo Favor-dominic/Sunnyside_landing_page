@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0;
+}
+
+header{
+    height: 600px;
+    padding: 30px;
+background-image: url(images/desktop/image-header.jpg);
+background-size:cover ;
+background-position: center;
+
+}
+
+.nav-logo{
+    display: flex;
+    height: 60PX;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    height: 60PX;
+    background-image: url('images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-bar{
+    width: 40%;
+    height: 60PX;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li:hover{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    text-align: center;
+font-size: 50px;
+}
+.arrow{
+    margin-left: 49%;
+    margin-top: 110px; 
+}
+.main-grid{
+    height: 1500px;
+    border: 1px solid black;
+}
+.row{
+    height: 33.3%;
+    border: 1px solid black;
+   
+}
+.two{
+    border: 1px solid blue;
+}
+
+.transform{
+    height: 100%;
+    
+} 
+.second-row{
+    background-color: green;
+    width: 50%;
+}
+
+.third-row{
+    background-color: brown;
+    width: 50%;
+}
+
+.first-row{
+    background-color: palevioletred;
+    width: 50%;
+    }
+
